@@ -1,8 +1,8 @@
-# Accord Template Playground - Transaction Execution MVP
+# Accord Template Playground - Transaction Execution Panel MVP
 
 ## Overview
 
-This MVP introduces the **Transaction Execution Panel** to the Accord Template Playground. It allows users to execute TypeScript template logic directly within the playground environment using a custom in-browser execution mechanism.
+This prototype introduces the **Transaction Execution Panel** to the Accord Template Playground. It allows users to execute TypeScript template logic directly within the playground environment using a custom in-browser execution mechanism.
 
 ## Key Features
 
