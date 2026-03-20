@@ -2,20 +2,20 @@
 
 ## Overview
 
-This prototype introduces the **Transaction Execution Panel** to the Accord Template Playground. It allows users to execute TypeScript template logic directly within the playground environment using a custom in-browser execution mechanism.
+This MVP introduces the **Transaction Execution Panel** to the Accord Template Playground. It is designed to show that template logic can be implemented, currently featuring a hardcoded example of a money overdue penalty calculation.
 
 ## Key Features
 
 1. **Transaction Execution Panel**: A new UI component located at `src/components/TransactionExecutionPanel.tsx` that provides an interface for users to enter transaction data and trigger template logic execution.
-2. **In-Browser Execution Service**: Evaluates and executes TypeScript template logic securely and efficiently within the browser itself without relying on an external backend execution environment.
+2. **In-Browser Execution Simulation**: Demonstrates an execution flow within the browser using a hardcoded example, without relying on an external backend execution environment.
 3. **State Management Integration**: Integrated seamlessly with the existing global application state (`src/store/store.ts`), as well as editor panels for a cohesive developer experience.
 
 ## Usage
 
 1. Open the Playground in your browser.
-2. The execution panel allows interacting dynamically with your template logic.
-3. Input the required transaction payload or details.
-4. Execute the transaction to view the generated state, output, or errors.
+2. The execution panel demonstrates the flow using a hardcoded money overdue logic example.
+3. Input the required transaction payload or details (e.g., for the late penalty).
+4. Execute the transaction to view the generated state, output, or errors for the hardcoded example.
 
 ## Tech Stack
 
